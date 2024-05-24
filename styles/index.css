@@ -8,9 +8,13 @@ body {
 }
 
 .container {
+  display: flex;
+  justify-content: center;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  font-family: "Times New Roman Condensed", Times, serif;
+  font-size: 1.2em;
 }
 
 .header-bg {
@@ -73,12 +77,22 @@ body {
   }
 }
 
+@font-face {
+  font-family: "Times New Roman Condensed";
+  src: url("fonts/times-new-roman-condensed.woff2") format("woff2"),
+    url("fonts/times-new-roman-condensed.woff") format("woff"),
+    url("fonts/times-new-roman-condensed.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .article {
   background: #ffffff;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 8px;
   font-size: 1.2em;
+  width: 850px;
 }
 
 .article-title {
@@ -87,13 +101,21 @@ body {
 }
 
 .article-subtitle {
-  margin-top: 32px;
+  margin-top: 30px;
+  font-weight: 500;
+  font-family: "Simonetta", serif;
 }
 
 .article-meta {
-  color: #888888;
-  font-size: 1em;
+  color: black;
+  font-size: 0.9em;
   margin-bottom: 20px;
+  border-bottom: 1px solid rgb(216, 212, 212);
+}
+
+.fecha {
+  color: #888888;
+  margin-top: 0;
 }
 
 .article-image img {
