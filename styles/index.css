@@ -106,6 +106,14 @@ body {
   font-family: "Simonetta", serif;
 }
 
+.image-subtitle {
+  margin-top: 30px;
+  font-weight: 200;
+  font-size: 1em;
+  text-align: center;
+  font-family: "Simonetta", serif;
+}
+
 .article-meta {
   color: black;
   font-size: 0.9em;
